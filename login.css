@@ -1,0 +1,39 @@
+/*
+ * Login form centered horizontally and vertically
+ * 
+ */
+
+body
+{
+    font-size: 1.1em;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+main
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: Center;
+}
+
+form
+{
+    border-radius: 1ex;
+    padding: 1ex 1em;
+    background-color: Gainsboro;
+}
+
+form p
+{
+    text-align: center;
+}
+
+form input
+{
+    border-radius: 0.4ex;
+    font-size: 1.2em;
+}
+

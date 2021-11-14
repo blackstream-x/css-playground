@@ -1,0 +1,38 @@
+/*
+ * Grid layout stylesheet
+ *
+ */
+
+body
+{
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-template-rows: min-content auto;
+}
+
+header
+{
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+nav
+{
+    grid-column: 1 / 2;
+    grid-row: 2 / -1;
+    background-color: Gainsboro;
+}
+
+main
+{
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+}
+
+aside
+{
+    right: 0;
+    text-align: right;
+    color: LightGray;
+}
+
